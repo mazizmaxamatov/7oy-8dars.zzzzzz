@@ -30,7 +30,7 @@ export const Cards = async () => {
                     return (
                         <div className="" key={index}>
                             <div className="box mt-[20px]">
-                                <div className='w-[250px] h-[320px] bg-cover bg-center bg-no-repeat border-[1px]  ' style={{ backgroundImage: `url(${info.main_image})` }} />
+                                <div className='w-[250px] h-[320px] bg-cover bg-center bg-no-repeat border-[1px]  ' style={{ backgroundImage: `(${info.main_image})` }} />
                                 <p className='font-inter text-[16px] font-[700] text-[#3D3D3D]'>{info.title}</p>
                                 <p className='font-[700px] text-[#46A358] textr-[18px] font-inter mt-[6px]'>{info.price}</p>
                             </div>
